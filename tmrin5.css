@@ -1,0 +1,59 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    width: 400px;
+    text-align: center;
+    padding: 2rem;
+    margin: 10%;
+}
+
+
+.input1 {
+    width: 300px;
+    height: 26px;
+    text-align: end;
+    border-color: white;
+    border: none;
+}
+
+
+fieldset {
+    border-color: white;
+    margin: 10px;
+    padding: 6px 0px;
+    margin-top: 20px;
+}
+
+
+.input2-3 {
+    width: 300px;
+    height: 20px;
+    text-align: end;
+    border: none;
+}
+
+legend {
+    text-align: right;
+    font-size: small;
+    margin-bottom: -8px;
+}
+
+
+.erorr {
+    font-size: xx-small;
+    text-align: end;
+    color: red;
+    margin-right: 20px;
+    margin-top: -10px;
+}

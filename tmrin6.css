@@ -1,0 +1,60 @@
+table,
+tr,
+th,
+thead,
+td {
+    border: 1px solid rgb(5, 5, 5);
+    border-collapse: collapse;
+}
+
+table {
+    width: 90%;
+}
+
+* {
+    /* text-align: center; */
+    padding: 5px;
+}
+
+.all {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+
+}
+
+thead {
+    color: white;
+    background-color: rgb(30, 27, 27);
+}
+
+tr:nth-child(even) {
+    background-color: #b7bfbf;
+}
+
+.panel {
+
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: rgb(48, 114, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0%;
+    left: 20%;
+    /* height: 400px; */
+    width: 900px;
+    display: none;
+}
+
+button {
+    background-color: rgb(128, 215, 78);
+    width: 100px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+
+}
